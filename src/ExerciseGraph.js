@@ -92,12 +92,12 @@ const ExerciseGraph = () => {
   const radarOptions = {
     responsive: true,
     scale: {
-      ticks: { beginAtZero: true, max: 50 },
+      ticks: { beginAtZero: true, max: 60 },
     },
   };
 
   return (
-    <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto', background: '#fff', boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}>
+    <><div  style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto', background: '#fff', boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}>
       {/* Return 버튼 */}
       <button className="Btn" style={{ marginBottom: '20px' }}>
         <div className="sign">
@@ -123,6 +123,7 @@ const ExerciseGraph = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
