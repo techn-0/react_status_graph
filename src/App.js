@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import ExerciseGraph from './ExerciseGraph';
+import ExerciseGraph from './components/ExerciseGraph';
 
 function App() {
   return (

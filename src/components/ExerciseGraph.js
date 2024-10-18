@@ -11,7 +11,7 @@ import {
   RadialLinearScale,
 } from 'chart.js';
 import { Line, Radar } from 'react-chartjs-2';
-import './App.css'; // CSS 파일
+import './ExerciseGraph.css';
 
 // Chart.js에 필요한 구성 요소 등록
 ChartJS.register(
